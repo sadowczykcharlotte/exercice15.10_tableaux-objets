@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Baskervville-Regular' ;
+    src: url(/Baskervville-Regular.otf);
+}
+
+body {
+    background-color: rgb(252, 241, 227);
+    font-family: 'Baskervville-Regular' ;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+header img {
+    width: 40%;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -10,3 +30,4 @@ th, td {
 .price-before {
     text-decoration: line-through;
 }
+
